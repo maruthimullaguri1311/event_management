@@ -10,7 +10,9 @@ python init_db.py
 PS C:\to \your \path \event_management> uvicorn main:app --reload
 
 
-#login and gett access token 
+#adding user and getting acccess token
 python  add_user.py
+python access_token.py
+
 
 #user the access token aand test the apis using thunder clinet or postman  or swaggger
